@@ -4,7 +4,7 @@ Objective:
 The goal of this experiment is to perform the DC operating point determination, gain analysis using transient response, and frequency behavior analysis through AC response for two MOSFET-based circuit designs. Additionally, the effect of varying the MOSFET's width and length on the output current is investigated.
 
 
-#Design-1
+# Design-1
 
 ![Screenshot 2025-02-17 221608](https://github.com/user-attachments/assets/864a490e-8c8b-4409-8b01-4c3160e326fa)
 
@@ -78,7 +78,7 @@ AC Analysis: The circuit maintains stability and performance across a range of f
 Conclusion:
 The experiment demonstrates that adjusting the MOSFET dimensions (length and width) effectively controls the drain current. The width (W) has a significant influence on Id—larger width increases the drain current. The circuit behaves reliably in all three analyses, confirming the feasibility of the design.
 
-#Design-2
+# Design-2
 ![Screenshot 2025-02-17 232318](https://github.com/user-attachments/assets/8c3a7104-8d27-4ac8-809a-43ba36f77314)
 
 Objective:
