@@ -4,7 +4,8 @@ Objective:
 The goal of this experiment is to perform the DC operating point determination, gain analysis using transient response, and frequency behavior analysis through AC response for two MOSFET-based circuit designs. Additionally, the effect of varying the MOSFET's width and length on the output current is investigated.
 
 
-Design-1
+#Design-1
+
 ![Screenshot 2025-02-17 221608](https://github.com/user-attachments/assets/864a490e-8c8b-4409-8b01-4c3160e326fa)
 
 Objective:
@@ -39,7 +40,7 @@ P=V×I, the drain current (Id) is calculated as
 −5
  A.
 The channel length (L) and width (W) of the MOSFET are adjusted to achieve the desired current, as shown in the schematic.
-![Screenshot (3)](https://github.com/user-attachments/assets/71cd234a-31b2-448f-958e-5a7139365d85)
+
 
 DC Analysis:
 To perform DC analysis, select the DC operating point option in the simulation tool and run the simulation.
@@ -76,7 +77,9 @@ AC Analysis: The circuit maintains stability and performance across a range of f
 Conclusion:
 The experiment demonstrates that adjusting the MOSFET dimensions (length and width) effectively controls the drain current. The width (W) has a significant influence on Id—larger width increases the drain current. The circuit behaves reliably in all three analyses, confirming the feasibility of the design.
 
-Design-2
+#Design-2
+![Screenshot 2025-02-17 232318](https://github.com/user-attachments/assets/8c3a7104-8d27-4ac8-809a-43ba36f77314)
+
 Objective:
 To evaluate the circuit’s behavior and performance by performing DC, transient, and AC analyses using two MOSFETs (M1 and M2), and to determine the drain current for different MOSFET dimensions.
 
@@ -113,15 +116,28 @@ The channel dimensions (L and W) for both MOSFETs are adjusted to meet the desir
 M1: L = 500nm, W = 950nm
 M2: L = 300nm, W = 1020nm
 DC sweep analysis is performed to find the operating voltage (Vin = 0.8V) that places the MOSFETs in the saturation region, as shown in the VTC curve.
+![Screenshot 2025-02-17 232500](https://github.com/user-attachments/assets/052828e2-4845-476e-8b52-b212487a905b)
+![image](https://github.com/user-attachments/assets/87ef0939-34cc-4bf9-992e-6e559381eb79)
+![Screenshot 2025-02-17 232700](https://github.com/user-attachments/assets/e4810989-207f-457e-a7fd-f7ad07b51aff)
+
+
+
 DC Analysis:
 Perform DC analysis by selecting the DC operating point option and running the simulation.
 The results show that the calculated drain current (Id) aligns with the expected value, and by adjusting the MOSFET dimensions, the desired current is achieved for both MOSFETs (M1 and M2).
+![image](https://github.com/user-attachments/assets/d216fab2-4ada-476f-a4f2-e55c3415ac4b)
+
+
 Transient Analysis:
 A transient analysis is performed with a stop time of 1ms, and the circuit’s time-domain response is observed.
 The results confirm that the circuit transitions smoothly and responds effectively to changes in input voltage, indicating stable operation.
+![Screenshot 2025-02-17 232915](https://github.com/user-attachments/assets/c49d0122-4317-4e15-bba2-514d0b66468e)
+
 AC Analysis:
 For AC analysis, the circuit’s frequency response is examined across different frequencies.
 The gain is found to be 3.8 dB, with a phase shift of nearly 180°, confirming the theoretical expectations.
+![Screenshot 2025-02-17 233036](https://github.com/user-attachments/assets/b1806728-3a09-4517-bca9-e3d012aa5151)
+
 Results:
 DC Analysis: The drain current (Id = 
 5.56
@@ -144,5 +160,5 @@ M1 has a smaller influence on the drain current; changes in its width result in 
 M2 has a stronger influence on Id; increasing its width significantly raises the drain current.
 The design meets the expected performance criteria and follows theoretical predictions, making it a feasible solution for practical applications.
 
-Final Thoughts:
+Inference:
 The experiment successfully demonstrates the ability to control MOSFET drain current by adjusting the width and length of the MOSFETs. The behavior of both designs was thoroughly analyzed through DC, transient, and AC simulations, and the results closely match theoretical expectations. This validates the circuit designs and proves their practical applicability in real-world scenarios.
