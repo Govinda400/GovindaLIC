@@ -5,8 +5,11 @@ The goal of this experiment is to perform the DC operating point determination, 
 
 
 Design-1
+![Screenshot 2025-02-17 221608](https://github.com/user-attachments/assets/864a490e-8c8b-4409-8b01-4c3160e326fa)
+
 Objective:
 To analyze the circuit's behavior under DC, transient, and AC conditions, and to determine the MOSFET's operating parameters, such as gain and drain current.
+![Screenshot 2025-02-17 231421](https://github.com/user-attachments/assets/b1bd6f61-a8a3-4e79-8456-c7e165d28065)
 
 
 Components Used:
@@ -25,40 +28,48 @@ Using the formula
 ×
 𝐼
 P=V×I, the drain current (Id) is calculated as 
-5.56
+5.554
 ×
 10
 −
 5
  
 𝐴
-5.56×10 
+5.554×10 
 −5
  A.
 The channel length (L) and width (W) of the MOSFET are adjusted to achieve the desired current, as shown in the schematic.
+![Screenshot (3)](https://github.com/user-attachments/assets/71cd234a-31b2-448f-958e-5a7139365d85)
 
 DC Analysis:
 To perform DC analysis, select the DC operating point option in the simulation tool and run the simulation.
 The results show that the calculated drain current (Id) matches the expected value based on the input power and voltage.
+
 Transient Analysis:
+![Screenshot 2025-02-17 133650](https://github.com/user-attachments/assets/60485db8-7f29-4fa9-b362-96f8c25f918d)
+![Screenshot 2025-02-17 133738](https://github.com/user-attachments/assets/a06a622a-b6cd-4ffd-84d9-af8115ed3c54)
+
 For transient analysis, a stop time of 1ms is selected, and the simulation is run to observe the circuit’s time-domain behavior.
 The results show that the circuit transitions smoothly, confirming its stable operation over time.
 
 AC Analysis:
+![Screenshot 2025-02-17 134952](https://github.com/user-attachments/assets/836fe730-107c-4822-83b6-49f4e2a8f5d5)
+
 In AC analysis, the simulation tool is configured for frequency response testing, and the circuit is evaluated across a range of frequencies.
 The gain is found to be -9.94 dB, with a phase shift near 180°, which matches theoretical predictions.
+
 Results:
 DC Analysis: The drain current (Id = 
-5.56
+5.554
 ×
 10
 −
 5
  
 𝐴
-5.56×10 
+5.554×10 
 −5
- A) was successfully achieved by adjusting the MOSFET dimensions (L = 175nm, W = 178nm). The circuit performs as expected under DC conditions.
+ A) was successfully achieved by adjusting the MOSFET dimensions (L = 200nm, W = 288nm). The circuit performs as expected under DC conditions.
 Transient Analysis: The transient response is stable, and the circuit shows no unexpected delays or distortions.
 AC Analysis: The circuit maintains stability and performance across a range of frequencies, with theoretical gain and phase shift values being confirmed.
 
