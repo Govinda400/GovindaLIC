@@ -17,6 +17,7 @@ Components Used:
 MOSFET
 Resistors
 DC Power Supply
+
 Procedure:
 Set up the circuit as shown in the schematic.
 Connect the drain terminal to a resistor, and the gate terminal to a DC power supply and the resistor.
