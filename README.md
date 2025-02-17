@@ -3,9 +3,11 @@ Experiment-1
 Objective:
 The goal of this experiment is to perform the DC operating point determination, gain analysis using transient response, and frequency behavior analysis through AC response for two MOSFET-based circuit designs. Additionally, the effect of varying the MOSFET's width and length on the output current is investigated.
 
+
 Design-1
 Objective:
 To analyze the circuit's behavior under DC, transient, and AC conditions, and to determine the MOSFET's operating parameters, such as gain and drain current.
+
 
 Components Used:
 MOSFET
@@ -34,12 +36,14 @@ P=V×I, the drain current (Id) is calculated as
 −5
  A.
 The channel length (L) and width (W) of the MOSFET are adjusted to achieve the desired current, as shown in the schematic.
+
 DC Analysis:
 To perform DC analysis, select the DC operating point option in the simulation tool and run the simulation.
 The results show that the calculated drain current (Id) matches the expected value based on the input power and voltage.
 Transient Analysis:
 For transient analysis, a stop time of 1ms is selected, and the simulation is run to observe the circuit’s time-domain behavior.
 The results show that the circuit transitions smoothly, confirming its stable operation over time.
+
 AC Analysis:
 In AC analysis, the simulation tool is configured for frequency response testing, and the circuit is evaluated across a range of frequencies.
 The gain is found to be -9.94 dB, with a phase shift near 180°, which matches theoretical predictions.
@@ -57,6 +61,7 @@ DC Analysis: The drain current (Id =
  A) was successfully achieved by adjusting the MOSFET dimensions (L = 175nm, W = 178nm). The circuit performs as expected under DC conditions.
 Transient Analysis: The transient response is stable, and the circuit shows no unexpected delays or distortions.
 AC Analysis: The circuit maintains stability and performance across a range of frequencies, with theoretical gain and phase shift values being confirmed.
+
 Conclusion:
 The experiment demonstrates that adjusting the MOSFET dimensions (length and width) effectively controls the drain current. The width (W) has a significant influence on Id—larger width increases the drain current. The circuit behaves reliably in all three analyses, confirming the feasibility of the design.
 
