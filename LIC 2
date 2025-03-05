@@ -1,0 +1,21 @@
+# LIC 2
+# Differential amplifier
+
+## Differential Amplifier
+
+A **differential amplifier** is an electronic amplifier that amplifies the difference between two input voltages. Unlike a regular amplifier that amplifies a single input, the differential amplifier compares the voltages and outputs a signal that is proportional to the difference.
+
+#### Key Characteristics:
+1. **Differential Gain**: Amplifies the difference between \( V_1 \) and \( V_2 \).
+2. **Common-Mode Rejection Ratio (CMRR)**: Measures how well the amplifier rejects signals common to both inputs (noise or interference).
+3. **Input Impedance**: The resistance presented to the input signals; should be high to avoid loading the source.
+4. **Output Impedance**: The resistance at the output; should be low for efficient power transfer.
+5. **Bandwidth**: The range of frequencies over which the amplifier operates effectively.
+6. **Slew Rate**: The maximum rate of change of the output signal.
+
+#### Application:
+Differential amplifiers are commonly used in operational amplifiers (op-amps), instrumentation systems, and audio signal processing, where rejecting noise and amplifying small voltage differences is critical.
+
+---
+
+This is a straightforward and concise explanation of a differential amplifier that includes its formula and key characteristics.
